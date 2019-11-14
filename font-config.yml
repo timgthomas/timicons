@@ -1,0 +1,9 @@
+font:
+  svg: ./dist/timicons.svg
+  ttf: ./dist/timicons.ttf
+  name: Timicons
+  fixedwidth: true
+glyphs:
+  - glyph: tmp/Empty.svg
+    name: empty
+    code: 0xE001

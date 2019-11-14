@@ -5,6 +5,7 @@
   "author": "Tim G. Thomas <tim@timgthomas.com>",
   "license": "MIT",
   "scripts": {
+    "export": "sketchtool export artboards src/timicons.sketch --formats=svg --output=./tmp",
     "build": "glyphs2font font-config.yml"
   },
   "repository": {
