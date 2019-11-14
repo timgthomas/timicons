@@ -5,15 +5,16 @@
   "author": "Tim G. Thomas <tim@timgthomas.com>",
   "license": "MIT",
   "scripts": {
-    "start": "npm run export && npm run build",
-    "export": "rm -rf tmp && sketchtool export layers src/timicons.sketch --output=./tmp",
-    "build": "rm -rf dist && mkdir -p dist && glyphs2font font-config.yml"
+    "start": "npm run clean && npm run export && npm run build",
+    "clean": "rm -rf dist tmp && mkdir dist",
+    "export": "sketchtool export layers src/timicons.sketch --output=./tmp",
+    "build": "icon-font-generator tmp/*.svg -o dist -n timicons-6 --types ttf --css false --html false --json false"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/timgthomas/timicons.git"
   },
   "dependencies": {
-    "glyphs2font": "^1.2.0"
+    "icon-font-generator": "^2.1.10"
   }
 }
