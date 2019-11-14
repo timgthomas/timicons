@@ -1,0 +1,17 @@
+{
+  "name": "timicons",
+  "version": "1.0.0",
+  "description": "File type icons for your favorite editor",
+  "author": "Tim G. Thomas <tim@timgthomas.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "glyphs2font font-config.yml"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timgthomas/timicons.git"
+  },
+  "dependencies": {
+    "glyphs2font": "^1.2.0"
+  }
+}
