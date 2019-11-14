@@ -8,7 +8,7 @@
     "start": "npm run clean && npm run export && npm run build",
     "clean": "rm -rf dist tmp && mkdir dist",
     "export": "sketchtool export layers src/timicons.sketch --output=./tmp",
-    "build": "icon-font-generator tmp/*.svg -o dist -n timicons --types ttf --css false --html false"
+    "build": "icon-font-generator tmp/*.svg -o dist -n Timicons --center --mono --height 1000 --types ttf --css false --html false"
   },
   "repository": {
     "type": "git",
