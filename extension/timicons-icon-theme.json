@@ -1,0 +1,170 @@
+{
+  "fonts": [
+    {
+      "id": "timicons",
+      "src": [
+        {
+          "path": "./Timicons.ttf",
+          "format": "truetype"
+        }
+      ],
+      "weight": "normal",
+      "style": "normal",
+      "size": "100%"
+    }
+  ],
+  "iconDefinitions": {
+    // "doc.badge.gearshape": {
+    //   "fontCharacter": " 􀩚"
+    // },
+    // "doc.richtext": {
+    //   "fontCharacter": " 􀉅"
+    // },
+    "folder": {
+      "fontCharacter": "\uE000"
+    },
+    "folder.fill": {
+      "fontCharacter": "\uE001"
+    },
+    "folder.solid": {
+      "fontCharacter": "\uE002"
+    },
+    "folder.tests": {
+      "fontCharacter": "\uE003"
+    },
+    "folder.library": {
+      "fontCharacter": "\uE004"
+    },
+    "folder.public": {
+      "fontCharacter": "\uE005"
+    },
+    "folder.secrets": {
+      "fontCharacter": "\uE006"
+    },
+    "folder.bin": {
+      "fontCharacter": "\uE007"
+    },
+    "folder.config": {
+      "fontCharacter": "\uE008"
+    },
+    "folder.nodemodules": {
+      "fontCharacter": "\uE009"
+    },
+    "folder.styles": {
+      "fontCharacter": "\uE00A"
+    },
+    "folder.components": {
+      "fontCharacter": "\uE00B"
+    },
+    "folder.routes": {
+      "fontCharacter": "\uE00C"
+    },
+    "folder.scripts": {
+      "fontCharacter": "\uE00D"
+    },
+
+    // Doc
+    "doc": {
+      "fontCharacter": "\uE010"
+    },
+    "doc.dashed": {
+      "fontCharacter": "\uE011"
+    },
+
+    // Doc: Generic code
+    "doc.braces": {
+      "fontCharacter": "\uE012"
+    },
+    "doc.angles": {
+      "fontCharacter": "\uE013"
+    },
+    "doc.brackets": {
+      "fontCharacter": "\uE014"
+    },
+
+    // Doc: Generic
+    "doc.text": {
+      "fontCharacter": "\uE015"
+    },
+    "doc.readme": {
+      "fontCharacter": "\uE016"
+    },
+    "doc.config": {
+      "fontCharacter": "\uE017"
+    },
+    "doc.graphic": {
+      "fontCharacter": "\uE018"
+    },
+    "doc.photo": {
+      "fontCharacter": "\uE019"
+    },
+    "doc.license": {
+      "fontCharacter": "\uE01A"
+    },
+    "doc.secrets": {
+      "fontCharacter": "\uE01B"
+    },
+    "doc.package": {
+      "fontCharacter": "\uE01C"
+    },
+    "doc.lock": {
+      "fontCharacter": "\uE01D"
+    },
+
+    // ...
+    "doc.html": {
+      "fontCharacter": "\uE020"
+    },
+    "doc.styles": {
+      "fontCharacter": "\uE021"
+    },
+    "doc.tests": {
+      "fontCharacter": "\uE022"
+    },
+    "doc.component": {
+      "fontCharacter": "\uE023"
+    },
+  },
+  "file": "doc",
+  "folder": "folder.fill",
+  // "folderExpanded": "folder.fill",
+  // "rootFolder": "doc",
+
+  "folderNames": {
+    // If `folderExpanded` is defined, these only appear when collapsed.
+    // "lib": "folder.library",
+    "public": "folder.public",
+    // "components": "folder.components",
+    "styles": "folder.styles",
+    // "routes": "folder.routes",
+    // "scripts": "folder.scripts",
+    // "bin": "folder.bin",
+    // "config": "folder.config",
+    "secrets": "folder.secrets",
+    "ssl": "folder.secrets",
+    "tests": "folder.tests"
+  },
+  "fileExtensions": {
+    "config.js": "doc.badge.gearshape",
+    "css": "doc.styles",
+    "less": "doc.styles",
+    "scss": "doc.styles",
+    "hbs": "doc.angles",
+    "html": "doc.html",
+    "lock": "doc.lock",
+    "md": "doc.readme",
+    "js": "doc.braces",
+  },
+  "fileNames": {
+    ".editorconfig": "doc.config",
+    ".ember-cli": "doc.config",
+    ".eslintignore": "doc.config",
+    ".git-blame-ignore-revs": "doc.config",
+    ".dockerignore": "doc.dashed",
+    ".gitignore": "doc.dashed",
+    ".prettierignore": "doc.dashed",
+    ".watchmanconfig": "doc.config",
+    "package.json": "doc.package",
+    "package-lock.json": "doc.lock"
+  }
+}

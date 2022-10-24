@@ -1,9 +1,11 @@
 {
   "name": "timicons",
+  "displayName": "Timicons",
   "version": "2.0.0-beta",
   "description": "File type icons for your favorite editor",
   "author": "Tim G. Thomas <tim@timgthomas.com>",
   "license": "MIT",
+  "private": true,
   "scripts": {
     "start": "npm run clean && npm run export && npm run build",
     "clean": "rm -rf dist tmp && mkdir dist",
@@ -16,5 +18,17 @@
   },
   "devDependencies": {
     "fantasticon": "^1.2.3"
+  },
+  "contributes": {
+    "iconThemes": [
+      {
+        "id": "timicons",
+        "label": "Timicons",
+        "path": "./extension/timicons-sf-icon-theme.json"
+      }
+    ]
+  },
+  "engines": {
+    "vscode": "*"
   }
 }
