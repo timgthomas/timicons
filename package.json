@@ -1,6 +1,6 @@
 {
   "name": "timicons",
-  "version": "1.0.0",
+  "version": "2.0.0-beta",
   "description": "File type icons for your favorite editor",
   "author": "Tim G. Thomas <tim@timgthomas.com>",
   "license": "MIT",
@@ -8,13 +8,13 @@
     "start": "npm run clean && npm run export && npm run build",
     "clean": "rm -rf dist tmp && mkdir dist",
     "export": "sketchtool export layers src/timicons.sketch --output=./tmp",
-    "build": "icon-font-generator tmp/*.svg -o dist -n Timicons --center --mono --height 1000 --types ttf --css false --html false"
+    "build": "fantasticon tmp/ -o dist -n Timicons -t ttf -g json"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/timgthomas/timicons.git"
   },
-  "dependencies": {
-    "icon-font-generator": "^2.1.10"
+  "devDependencies": {
+    "fantasticon": "^1.2.3"
   }
 }
