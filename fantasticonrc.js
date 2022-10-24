@@ -39,5 +39,9 @@ module.exports = {
     'doc-styles': 0xE021,
     'doc-tests': 0xE022,
     'doc-component': 0xE023,
+    'doc-table': 0xE024,
+
+    // Doc: Branded
+    'doc-svelte': 0xE030,
   }
 }

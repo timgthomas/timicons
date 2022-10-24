@@ -10,7 +10,7 @@
     "start": "npm run clean && npm run export && npm run build",
     "clean": "rm -rf dist tmp && mkdir dist",
     "export": "sketchtool export layers src/timicons.sketch --output=./tmp",
-    "build": "fantasticon tmp/ -o dist -n Timicons -t ttf -g json"
+    "build": "fantasticon tmp/ -o dist -n timicons -t ttf -g json && cp -r ./dist/timicons.ttf ./extension/timicons.ttf"
   },
   "repository": {
     "type": "git",
@@ -24,7 +24,7 @@
       {
         "id": "timicons",
         "label": "Timicons",
-        "path": "./extension/timicons-sf-icon-theme.json"
+        "path": "./extension/timicons-icon-theme.json"
       }
     ]
   },

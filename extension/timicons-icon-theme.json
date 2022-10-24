@@ -4,7 +4,7 @@
       "id": "timicons",
       "src": [
         {
-          "path": "./Timicons.ttf",
+          "path": "./timicons.ttf",
           "format": "truetype"
         }
       ],
@@ -124,6 +124,14 @@
     "doc.component": {
       "fontCharacter": "\uE023"
     },
+    "doc.table": {
+      "fontCharacter": "\uE024"
+    },
+
+    // Doc: Branded
+    "doc.svelte": {
+      "fontCharacter": "\uE030"
+    }
   },
   "file": "doc",
   "folder": "folder.fill",
@@ -145,15 +153,30 @@
     "tests": "folder.tests"
   },
   "fileExtensions": {
-    "config.js": "doc.badge.gearshape",
+    "cfg": "doc.config",
+    "config.js": "doc.config",
     "css": "doc.styles",
     "less": "doc.styles",
     "scss": "doc.styles",
     "hbs": "doc.angles",
     "html": "doc.html",
+    "ico": "doc.graphic",
+    "key": "doc.secrets",
     "lock": "doc.lock",
     "md": "doc.readme",
+    "jpg": "doc.photo",
+    "jpeg": "doc.photo",
     "js": "doc.braces",
+    "json": "doc.table",
+    "mobileconfig": "doc.config", // Should this be an iPhone?
+    "png": "doc.photo",
+    "properties": "doc.table",
+    "sh": "TODO", // TODO
+    "svelte": "doc.svelte",
+    "svg": "doc.graphic",
+    "txt": "doc.text",
+    "xml": "doc.angles",
+    "yml": "doc.table",
   },
   "fileNames": {
     ".editorconfig": "doc.config",
@@ -161,6 +184,7 @@
     ".eslintignore": "doc.config",
     ".git-blame-ignore-revs": "doc.config",
     ".dockerignore": "doc.dashed",
+    ".gitkeep": "doc.dashed",
     ".gitignore": "doc.dashed",
     ".prettierignore": "doc.dashed",
     ".watchmanconfig": "doc.config",
