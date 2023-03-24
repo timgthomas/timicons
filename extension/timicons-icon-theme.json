@@ -131,6 +131,9 @@
     // Doc: Branded
     "doc.svelte": {
       "fontCharacter": "\uE030"
+    },
+    "doc.elixir": {
+      "fontCharacter": "\uE031"
     }
   },
   "file": "doc",
@@ -156,9 +159,13 @@
     "cfg": "doc.config",
     "config.js": "doc.config",
     "css": "doc.styles",
+    "csv": "doc.table",
+    "ex": "doc.elixir",
+    "exs": "doc.elixir",
     "less": "doc.styles",
     "scss": "doc.styles",
     "hbs": "doc.angles",
+    "heex": "doc.html",
     "html": "doc.html",
     "ico": "doc.graphic",
     "key": "doc.secrets",

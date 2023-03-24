@@ -43,5 +43,6 @@ module.exports = {
 
     // Doc: Branded
     'doc-svelte': 0xE030,
+    'doc-elixir': 0xE031
   }
 }
