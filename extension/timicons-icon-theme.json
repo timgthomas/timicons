@@ -170,6 +170,7 @@
     "ico": "doc.graphic",
     "key": "doc.secrets",
     "lock": "doc.lock",
+    "lockb": "doc.lock",
     "md": "doc.readme",
     "jpg": "doc.photo",
     "jpeg": "doc.photo",
@@ -181,6 +182,7 @@
     "sh": "TODO", // TODO
     "svelte": "doc.svelte",
     "svg": "doc.graphic",
+    "ts": "doc.braces",
     "txt": "doc.text",
     "xml": "doc.angles",
     "yml": "doc.table",
